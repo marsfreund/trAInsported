@@ -251,7 +251,7 @@ function ai.chooseDirection()
 		print("Erste Kreuzung! Geh nach Osten!")
 		return "E"
 	else
-		print("Geh nach Süden!")
+		print("Geh nach Sueden!")
 		return "S"
 	end
 end
