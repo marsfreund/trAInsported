@@ -385,7 +385,7 @@ tutorialSteps[k].message = "Yay, du hast das erste Tutorial beendet!\n\nKlicke a
 tutorialSteps[k].buttons = {}
 tutorialSteps[k].buttons[1] = {name = "Zurück", event = prevTutorialStep}
 
-tutorialSteps[k].buttons[2] = {name = "Mehr Ideen", event = additionalInformation("1. Versuche etwas in die Konsole zu schreiben wenn der Zug einen Passagier aufnimmt und wenn er einen Passagier absetzt (z.B. 'Willkommen!' und 'Tschüss').\n2. Kaufe zwei Züge statt nur einem, indem du buyTrain zweimal aufrufst, in ai.init().\n3. Lass einen Zug rechts unten auf der Karte starten, statt links oben!"), inBetweenSteps = true}
+tutorialSteps[k].buttons[2] = {name = "Mehr Ideen", event = additionalInformation("1. Versuche etwas in die Konsole zu schreiben wenn der Zug einen Passagier aufnimmt und wenn er einen Passagier absetzt (z.B. 'Willkommen!' und 'Tschuess').\n2. Kaufe zwei Züge statt nur einem, indem du buyTrain zweimal aufrufst, in ai.init().\n3. Lass einen Zug rechts unten auf der Karte starten, statt links oben!"), inBetweenSteps = true}
 tutorialSteps[k].buttons[3] = {name = "Weiter", event = nextTutorialStep}
 k = k + 1
 
